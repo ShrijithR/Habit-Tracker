@@ -26,3 +26,9 @@ _Track and analyse habits_
 [__Requirements File__](Requirements%20File/HabitTracker-Requirements.txt)| Modules to be installed.
  __README.md__ | Document being read.
 [ \___main\_\_.py__](__main__.py)| Main program to run the application.
+
+##How to get started
+* Install the modules in the HabitTracker-Requirements.txt file using pip.
+* Follow the format in the Excel template to edit the Excel accordingly.
+* Keep all the files in the same folder 
+* Open \_\_main.py\_\_ to run the program. 
