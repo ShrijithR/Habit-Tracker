@@ -17,8 +17,8 @@ _Track and analyse habits_
 
  FILENAME | DESCRIPTION 
   :---:|--- 
-[__Habit Tracker Template__](Excel__Files/Habit Tracker-10_7.xlsx)| Habit tracker Excel file tracked till 7 October
-[__Habit Tracker\(Example file used\)__](Excel__Files/Habit Tracker-Template.xlsx)| Habit tracker Excel file tracked till 7 October
+[__Habit Tracker Template__](Excel__Files/Habit%20Tracker-10_7.xlsx)| Habit tracker Excel file tracked till 7 October
+[__Habit Tracker\(Example file used\)__](Excel__Files/Habit%20Tracker-Template.xlsx)| Habit tracker Excel file tracked till 7 October
 [__Habit Goals file__](Modules/HabitGoalsFile.py)| output of the functino update habit goals. module that contains a dictionary that is imported 
 [__Habit List File__](Modules/HabitListFile.py)| output of the function update habit list which parses the trakcer file and palces the habits in a list
 [__Habit Functions__](Modules/HabitTrackerFunctions.py)| contains fucntions taht are called by the main program and the function that are used withint hte program to simplify code
