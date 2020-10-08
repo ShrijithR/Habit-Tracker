@@ -24,7 +24,7 @@
 [__Datetime module of Python 3.8__](src/Datetime38.py)| Datetime module of python 3.8 imported to use the attribute fromisocalendar since the IDE had its limit to python 3.6.
 [__Requirements File__](Requirements%20File/HabitTracker-Requirements.txt)| Modules to be installed.
  __README.md__ | Document being read.
-[ \___main\_\_.py__](__main__.py)| Main program to run the application.
+[\_\___main\_\_.py__](__main__.py)| Main program to run the application.
 
 ## Getting Started
 * Install the modules in the HabitTracker-Requirements.txt file using pip.
