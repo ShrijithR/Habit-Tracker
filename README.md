@@ -17,13 +17,12 @@ _Track and analyse habits_
 
  FILENAME | DESCRIPTION 
   :---:|--- 
-[__Habit Tracker Template__](Excel__Files/Habit%20Tracker-10_7.xlsx)| Habit tracker Excel file tracked till 7 October
-[__Habit Tracker\(Example file used\)__](Excel__Files/Habit%20Tracker-Template.xlsx)| Habit tracker Excel file tracked till 7 October
-[__Habit Goals file__](Modules/HabitGoalsFile.py)| output of the functino update habit goals. module that contains a dictionary that is imported 
-[__Habit List File__](Modules/HabitListFile.py)| output of the function update habit list which parses the trakcer file and palces the habits in a list
-[__Habit Functions__](Modules/HabitTrackerFunctions.py)| contains fucntions taht are called by the main program and the function that are used withint hte program to simplify code
-[__Datetime module of Python 3.8__](Datetime38.py)| datetime module of python 3.8 imported to use the fromisocalendar module since the ide worked on had its limit to python 3.6
-[__Requirements File__](Requirements%20File/HabitTracker-Requirements.txt)| Contains the modules needed to be installed
- __README.md__ | Document being read
-[ \___main\_\_.py__](__main__.py)| Main program to run the application 
-
+[__Habit Tracker Template__](Excel__Files/Habit%20Tracker-10_7.xlsx)| Habit tracker Excel file tracked from Aug 10 till Oct 7
+[__Habit Tracker\(Example file used\)__](Excel__Files/Habit%20Tracker-Template.xlsx)| Habit tracker Excel file template
+[__Habit Goals file__](Modules/HabitGoalsFile.py)| A dictionary. Format: {keyA : {keyB : Values}, ...} KeyA= Habit Names, KeyB= 'Goals', Values= Goals got as input.    
+[__Habit List File__](Modules/HabitListFile.py)| A list. Elements=Habit names. Created by parsing the habit(second) column of the Excel sheet. 
+[__Habit Functions__](Modules/HabitTrackerFunctions.py)| Functions that are called by the main program and the functions that are used within the program to simplify the code.
+[__Datetime module of Python 3.8__](Datetime38.py)| Datetime module of python 3.8 imported to use the attribute fromisocalendar since the IDE had its limit to python 3.6.
+[__Requirements File__](Requirements%20File/HabitTracker-Requirements.txt)| Modules to be installed.
+ __README.md__ | Document being read.
+[ \___main\_\_.py__](__main__.py)| Main program to run the application.
