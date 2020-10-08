@@ -1,11 +1,10 @@
 # **Habit-Tracker**
-_Track and analyse habits_
 
 ![Image of HT](https://media.giphy.com/media/Zr9FfobRExF6FuRsJr/giphy.gif)
 
 > Change starts with awareness
   
-   A simple no-nonsense habit tracker track habits onto an Excel worksheet and perform calculations on the data to inspect the progress.
+   _A simple no-nonsense habit tracker track habits onto an Excel worksheet and perform calculations on the data to inspect the progress._
 
 ## Features
  _For a specific habit or all habits; For a specific date/date range or date ranges_
