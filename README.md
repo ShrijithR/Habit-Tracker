@@ -16,7 +16,7 @@ _Track and analyse habits_
    A simple no-nonsense habit tracker track habits onto an Excel worksheet and perform calculations on the data to inspect the progress.
 
  FILENAME | DESCRIPTION 
-  ---|--- 
+  :---:|--- 
  __ExcelFile/Habit Tracker-10_7.xlsx__ | Habit tracker Excel file tracked till 7 October
  __Modules/habitgoalsfile.py__ | output of the functino update habit goals. module that contains a dictionary that is imported 
  __Modules/habitlistfile.py__ | output of the function update habit list which parses the trakcer file and palces the habits in a list
