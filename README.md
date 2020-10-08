@@ -3,6 +3,9 @@ _Track and analyse habits_
 
 ![Image of HT](https://media.giphy.com/media/Zr9FfobRExF6FuRsJr/giphy.gif)
 
+> Change starts with awareness
+  
+   A simple no-nonsense habit tracker track habits onto an Excel worksheet and perform calculations on the data to inspect the progress.
 
 ## Features
  _For a specific habit or all habits; For a specific date/date range or date ranges_
@@ -11,10 +14,7 @@ _Track and analyse habits_
   * Check if the goals have been reached 
   * Update the results onto the tracker
   
-> Change starts with awareness
-  
-   A simple no-nonsense habit tracker track habits onto an Excel worksheet and perform calculations on the data to inspect the progress.
-
+## Table Of Contents
  FILENAME | DESCRIPTION 
   :---:|--- 
 [__Habit Tracker Template__](Excel__Files/Habit%20Tracker-10_7.xlsx)| Habit tracker Excel file tracked from Aug 10 till Oct 7
@@ -27,7 +27,7 @@ _Track and analyse habits_
  __README.md__ | Document being read.
 [ \___main\_\_.py__](__main__.py)| Main program to run the application.
 
-##How to get started
+## Getting Started
 * Install the modules in the HabitTracker-Requirements.txt file using pip.
 * Follow the format in the Excel template to edit the Excel accordingly.
 * Keep all the files in the same folder 
