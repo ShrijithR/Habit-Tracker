@@ -24,6 +24,6 @@ _Track and analyse habits_
  __Datetime38.py__ | datetime module of python 3.8. imported to use the fromisocalendar module since the ide worked on had its limit to python 3.6
  __RequirementsFile.txt__ | Contains the modules needed to be installed
  __readme__ | Document being read
- ___main_.py__ | Main program to run the application 
+ __\_main_.py__ | Main program to run the application 
 
 ##Guide
