@@ -7,8 +7,6 @@ import pyinputplus as pyip
 
 #                                           Keep looping until 'quit' is chosen
 while True:
-#                                           Run the datefinder function to make use of the attributes
-    HT.dateFinder()
     try:
         print("What do you want to do? ", end="")
         functionChoice = pyip.inputMenu(
