@@ -168,30 +168,24 @@ def dateFinder():
     )
 dateFinder()
 
-
 #                                           Check if the date parameter is above the starting date of the tracker
 #                                           and below the endign date of the tracker
 
 def dateCheck(dateObj):
-    if dateObj < dateStartLimit:
+    if dateObj < dateStartLimit or dateObj > dateEndLimit:
         print(
-            "Date must be above %s/%d/%d"
-            % (dateStartLimit.day, dateStartLimit.month, dateStartLimit.year)
+            "Date must be between %s/%d/%d and %s/%d/%d"
+            % (dateStartLimit.day, dateStartLimit.month, dateStartLimit.year,dateEndLimit.day, dateEndLimit.month, dateEndLimit.year)
         )
         return False
-
-    if dateObj > dateEndLimit:
-        print(
-            "Date must be below %s/%d/%d"
-            % (dateEndLimit.day, dateEndLimit.month, dateEndLimit.year)
-        )
-        return False
-    return True
+  
 #                                           Prompt the user for the date, run teh dateCheck function
 #                                           and return the date if the function is True
 def getDate(msg):
     while True:
-        dateOutput=pyip.inputDate(prompt=msg,formats=(["%d/%m/%y"]))
+        dateOutput=pyip.inputDate(
+            prompt=msg,formats=(["%d/%m/%y"])
+        )
         if dateCheck(dateOutput):
             break
     return dateOutput
