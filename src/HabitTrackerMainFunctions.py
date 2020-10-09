@@ -176,7 +176,8 @@ def dateCheck(dateObj):
         return True
     print(
         "Date must be between %s/%d/%d and %s/%d/%d"
-        % (dateStartLimit.day, dateStartLimit.month, dateStartLimit.year,dateEndLimit.day, dateEndLimit.month, dateEndLimit.year)
+        % (dateStartLimit.day, dateStartLimit.month, dateStartLimit.year,
+           dateEndLimit.day, dateEndLimit.month, dateEndLimit.year)
     )
     return False
   
