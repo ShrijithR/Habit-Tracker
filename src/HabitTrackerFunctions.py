@@ -23,13 +23,13 @@ for xlFile in os.listdir(os.getcwd()):
     if xlFile.startswith("Habit Tracker") and xlFile.endswith(".xlsx"):
         workbookfiles.append(xlFile)
 
+try:
+    workbookChoice = workbookfiles[0]
+except IndexError:
+    print("no files found")
 if len(workbookfiles) > 1:
     print("Choose the tracker workbook to be updated")
     workbookChoice = pyip.inputMenu(workbookfiles, numbered=True)
-elif len(workbookfiles) == 1:
-    workbookChoice = workbookfiles[0]
-else:
-    print("no files found")
 
 #                                           LOADING WORKBOOK AND SHEET OBJECT
 wb = xl.load_workbook(workbookChoice)
