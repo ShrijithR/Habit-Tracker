@@ -20,7 +20,7 @@
 [__Habit Tracker\(Example file used\)__](Excel__Files/Habit%20Tracker-Template.xlsx)| Tracker file template.
 [__Habit Goals file__](src/HabitGoalsFile.py)| A dictionary in the format 'Dict:{keyA :{keyB :Values}, ...}' where KeyA= Habit Names, KeyB= 'Goals', and Values= Return values from the function, UpdateGoals. 
 [__Habit List File__](src/HabitListFile.py)| A list having its elements as habit names created by parsing the habit(second) column of the active sheet. 
-[__Habit Functions__](src/HabitTrackerFunctions.py)| Module containing the functions used by the main program and the functions used to simplify the code within the module itself. 
+[__Habit Functions__](src/HabitTrackerMainFunctions.py)| Module containing the functions used by the main program and the functions used to simplify the code within the module itself. 
 [__Datetime module of Python 3.8__](src/Datetime38.py)| Datetime module of python 3.8 imported to use the attribute 'fromisocalendar' since the IDE has its limit to python 3.6.
 [__Requirements File__](Requirements%20File/HabitTracker-Requirements.txt)| Modules to be installed.
  __README.md__ | Document being read.
