@@ -172,12 +172,13 @@ dateFinder()
 #                                           and below the endign date of the tracker
 
 def dateCheck(dateObj):
-    if dateObj < dateStartLimit or dateObj > dateEndLimit:
-        print(
-            "Date must be between %s/%d/%d and %s/%d/%d"
-            % (dateStartLimit.day, dateStartLimit.month, dateStartLimit.year,dateEndLimit.day, dateEndLimit.month, dateEndLimit.year)
-        )
-        return False
+    if not dateObj < dateStartLimit or dateObj > dateEndLimit:
+        return True
+    print(
+        "Date must be between %s/%d/%d and %s/%d/%d"
+        % (dateStartLimit.day, dateStartLimit.month, dateStartLimit.year,dateEndLimit.day, dateEndLimit.month, dateEndLimit.year)
+    )
+    return False
   
 #                                           Prompt the user for the date, run teh dateCheck function
 #                                           and return the date if the function is True
