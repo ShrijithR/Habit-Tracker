@@ -5,10 +5,8 @@
 > Change starts with awareness.
   
 ## Description
- _A simple, no-nonsense habit tracker to track habits onto an Excel worksheet and perform calculations on the data to inspect progress._
- 
- **What does it do?**
- 
+ _A simple, no-nonsense habit tracker to track habits onto an Excel worksheet and perform calculations on the data to inspect progress._\n
+ **What does it do?**\n
  For a specific habit or all habits; For a specific date/date range or date ranges:
   * Analyse total number of hits and misses.
   * Compare analysis data to check progress.
@@ -33,5 +31,6 @@
 * Follow the format in the Tracker template to edit the Excel accordingly.
 * Keep all the files in the same folder. 
 * Open \_\_main.py\_\_ to run the program. 
-* Check [notes](docs/Notes.py) for more information on the working. 
+* Check [notes](docs/Notes.md) for more information on the working. 
+
 ### Good Luck!
