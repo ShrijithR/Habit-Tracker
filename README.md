@@ -29,10 +29,12 @@
 [__Notes.md__](docs/Notes.md)| Information on the working of the program.  
 
 ## Installation
+* Download the program zip file and extract it
+* Bring all the files to the same folder. 
 * Install the modules in the HabitTracker-Requirements.txt file using pip.
 * Follow the format in the Tracker template to edit the Excel accordingly.
-* Keep all the files in the same folder. 
-* Open \_\_main.py\_\_ to run the program. 
+* Edit the bat file to insert the path of current working directory and rename the extension from .txt to .bat
+* Use the bat file to run the program
 * Check [notes](docs/Notes.md) for more information on the working. 
 
 ### Good Luck!
