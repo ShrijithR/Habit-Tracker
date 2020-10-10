@@ -32,7 +32,7 @@
 * Bring all the files to the same folder. 
 * Install the modules in the HabitTracker-Requirements.txt file using pip.
 * Follow the format in the Tracker template to edit the Excel accordingly.
-* Edit the bat file to insert the path of current working directory and rename the extension from .txt to .bat
-* Use the bat file to run the program
+* Edit the bat file to insert the path of current working directory and rename the extension from .txt to .bat.
+* Use the bat file to run the program.
 
 ### Good Luck!
