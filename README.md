@@ -25,8 +25,7 @@
 [__Habit List File__](src/HabitListFile.py)| A list having its elements as habit names created by parsing the habit(second) column of the active sheet. 
 [__Habit Functions__](src/HabitTrackerMainFunctions.py)| Module containing the functions used by the main program and the functions used to simplify the code within the module itself. 
 [__Datetime module of Python 3.8__](src/Datetime38.py)| Datetime module of python 3.8 imported to use the attribute 'fromisocalendar' since the IDE has its limit to python 3.6.
- __README.md__ | Document being read.
-[__Notes.md__](docs/Notes.md)| Information on the working of the program.  
+ __README.md__ | Document being read.  
 
 ## Installation
 * Download the program zip file and extract it
@@ -35,6 +34,5 @@
 * Follow the format in the Tracker template to edit the Excel accordingly.
 * Edit the bat file to insert the path of current working directory and rename the extension from .txt to .bat
 * Use the bat file to run the program
-* Check [notes](docs/Notes.md) for more information on the working. 
 
 ### Good Luck!
