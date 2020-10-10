@@ -6,12 +6,12 @@
   
 ## Description
  _A simple, no-nonsense habit tracker to track habits onto an Excel worksheet and perform calculations on the data to inspect progress._  
- **What does it do?**  
- For a specific habit or all habits; For a specific date/date range or date ranges:
-  * Analyse total number of hits and misses.
-  * Compare analysis data to check progress.
-  * Check if the goals have been reached.
-  * Update the results of the day onto the tracker.
+ *What does it do?*  
+    For a specific habit or all habits; For a specific date/date range or date ranges:
+    * Analyse total number of hits and misses.
+    * Compare analysis data to check progress.
+    * Check if the goals have been reached.
+    * Update the results of the day onto the tracker.
   
 ## Table Of Contents
  FILENAME | DESCRIPTION 
@@ -25,6 +25,7 @@
 [__Habit Functions__](src/HabitTrackerMainFunctions.py)| Module containing the functions used by the main program and the functions used to simplify the code within the module itself. 
 [__Datetime module of Python 3.8__](src/Datetime38.py)| Datetime module of python 3.8 imported to use the attribute 'fromisocalendar' since the IDE has its limit to python 3.6.
  __README.md__ | Document being read.
+[__Notes.md__](docs/Notes.md)| Information on the working of the program.  
 
 ## Installation
 * Install the modules in the HabitTracker-Requirements.txt file using pip.
