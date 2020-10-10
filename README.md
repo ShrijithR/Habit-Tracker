@@ -6,13 +6,13 @@
   
 ## Description
  *What is it?*  
- A simple, no-nonsense habit tracker to track habits onto an Excel worksheet and perform calculations on the data to inspect progress.
+ A simple, no-nonsense habit tracker to track habits onto an Excel worksheet and perform calculations on the data to inspect progress.  
  *What does it do?*  
-    For a specific habit or all habits; For a specific date/date range or date ranges:  
-    * Analyse total number of hits and misses.  
-    * Compare analysis data to check progress.  
-    * Check if the goals have been reached.  
-    * Update the results of the day onto the tracker.  
+  For a specific habit or all habits; For a specific date/date range or date ranges:  
+  * Analyse total number of hits and misses.  
+  * Compare analysis data to check progress.  
+  * Check if the goals have been reached.  
+  * Update the results of the day onto the tracker.  
   
 ## Table Of Contents
  FILENAME | DESCRIPTION 
