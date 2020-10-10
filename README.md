@@ -5,8 +5,8 @@
 > Change starts with awareness.
   
 ## Description
- _A simple, no-nonsense habit tracker to track habits onto an Excel worksheet and perform calculations on the data to inspect progress._\n
- **What does it do?**\n
+ _A simple, no-nonsense habit tracker to track habits onto an Excel worksheet and perform calculations on the data to inspect progress.___
+ **What does it do?**__
  For a specific habit or all habits; For a specific date/date range or date ranges:
   * Analyse total number of hits and misses.
   * Compare analysis data to check progress.
