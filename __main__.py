@@ -78,7 +78,6 @@ while True:
             fileOpenChoice = pyip.inputYesNo(prompt="Do you want to open the tracker?\n")
             if fileOpenChoice == "yes":
                 subprocess.Popen([HT.update.wbVersion], shell=True)
-            importlib.reload(HT)
         elif functionChoice == "Compare":
             print("Select the habit you want to check. ", end="")
             habitChoice = pyip.inputMenu(HLF.habitList + ["all"], numbered=True)
@@ -107,6 +106,7 @@ while True:
     except (KeyboardInterrupt, SystemExit):
         print('You pressed ctrl+c')
         raise
+    importlib.reload(HT)
     action = pyip.inputYesNo(prompt="Do you want to perform any other action\n")
     if action == "no":
         break
