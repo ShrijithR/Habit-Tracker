@@ -1,4 +1,4 @@
 send2trash
 openpyxl
-Pyinputplus
+pyinputplus
 python-dateutil
