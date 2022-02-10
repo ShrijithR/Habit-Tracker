@@ -36,3 +36,13 @@
 * Use the bat file to run the program.
 
 ### Good Luck!
+
+## Currently working on
+Expanding to accomodate more functions for habits. 
+Problems I'm solving:
+* Efficient parsing of source data.
+* Solving ambiguity in source data representation.
+
+### Future additions
+* Integrate with Google fit tracker, meditation timer and log(Meditation app), and Brain focus(productivity app) to automate tracker update. 
+* UI to manipulate tracker.
